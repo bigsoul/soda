@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="907f8534-0710-4718-83c5-a7cfdf063f29">
+  <name>СОД_РегистрацииОбработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрации: обработка</value>
+  </synonym>
+  <methodName>CommonModule.СОД_Синхронизация.РегистрацииОбработка</methodName>
+  <description>Регистрации: обработка</description>
+  <key>Регистрации: обработка</key>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b059e77-5759-4714-884d-c33a5e15f602">
+  <name>СОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>СОД</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d547c160-7f31-4cd6-aa1f-8c4d9289420e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b0deb310-c287-46e4-95ec-01b55013698f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a389c624-6818-4f26-bf45-e526b2efa367"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0dbe8295-ea62-465e-8c41-a9611a66e4df"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ea01bebd-1ee6-4715-b823-ba39058c27a5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="38ef4bd6-6e55-499b-b4f4-a36f0d41cfa1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a4964f99-d5f9-4a38-b03c-8169bbb623e3"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="94fb6206-0b58-4e85-b4ff-6051cfd6780c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.СОД_Синхронизация</subsystems>
+  <subsystems>Subsystem.ТЕСТ_Тестирование</subsystems>
+  <commonPictures>CommonPicture.СОД_Синхронизация</commonPictures>
+  <roles>Role.СОД_ПолныеПрава</roles>
+  <roles>Role.СОД_Пользователь</roles>
+  <roles>Role.ТЕСТ_ПолныеПрава</roles>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ_2_v2_1_1_141</commonTemplates>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ_v2_1_1_141</commonTemplates>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ2_2_v2_1_1_141</commonTemplates>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ2_v2_1_1_141</commonTemplates>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ3_2_v2_1_1_141</commonTemplates>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_141</commonTemplates>
+  <commonModules>CommonModule.СОД_ВерсияОбъекта</commonModules>
+  <commonModules>CommonModule.СОД_Логирование</commonModules>
+  <commonModules>CommonModule.СОД_Маршрутизация</commonModules>
+  <commonModules>CommonModule.СОД_Синхронизация</commonModules>
+  <commonModules>CommonModule.СОД_СинхронизацияПовтИсп</commonModules>
+  <commonModules>CommonModule.СОД_ПодпискиНаСобытия</commonModules>
+  <commonModules>CommonModule.СОД_Общий</commonModules>
+  <exchangePlans>ExchangePlan.СОД_Узлы</exchangePlans>
+  <webServices>WebService.SED_WEB</webServices>
+  <httpServices>HTTPService.SED_HTTP</httpServices>
+  <eventSubscriptions>EventSubscription.ТЕСТ_СправочникОбъект_ПриЗаписи</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.СОД_МониторБрокера</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СОД_РегистрацииОбработка</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СОД_РегистрацииТочкаАктуальности</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СОД_РегистрацииТранспорт</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СОД_РегистрацииТранспортПодтверждение</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СОД_РегистрацииУдаление</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СОД_РегистрацииAMQP</scheduledJobs>
+  <constants>Constant.СОД_ВключитьПротоколОбменаРегистрациями</constants>
+  <constants>Constant.СОД_ИсточникОтладкиПравил</constants>
+  <constants>Constant.СОД_КоличествоУдаляемыхРегистраций</constants>
+  <constants>Constant.СОД_МониторБрокера_АдресСервераSMTP</constants>
+  <constants>Constant.СОД_МониторБрокера_ИмяОтправителя</constants>
+  <constants>Constant.СОД_МониторБрокера_Отправитель</constants>
+  <constants>Constant.СОД_МониторБрокера_ПарольSMTP</constants>
+  <constants>Constant.СОД_МониторБрокера_ПользовательSMTP</constants>
+  <constants>Constant.СОД_МониторБрокера_ПортSMTP</constants>
+  <constants>Constant.СОД_МониторБрокера_Тема</constants>
+  <constants>Constant.СОД_ОбработкаОтладкиПравил</constants>
+  <constants>Constant.СОД_ОбработкаОтладкиСистемы</constants>
+  <constants>Constant.СОД_ПутьККаталогуФайлаLog</constants>
+  <constants>Constant.СОД_РазмерЖурналаРегистраций</constants>
+  <constants>Constant.СОД_СоздаватьФайлLog</constants>
+  <commonForms>CommonForm.СОД_Параметры</commonForms>
+  <commonForms>CommonForm.СОД_ТочкиАктуальности</commonForms>
+  <catalogs>Catalog.СОД_Регистрации</catalogs>
+  <catalogs>Catalog.ТЕСТ_Номенклатура</catalogs>
+  <enums>Enum.СОД_ИсточникиОбработкиПравил</enums>
+  <enums>Enum.СОД_НаправлениеРегистрации</enums>
+  <enums>Enum.СОД_ПротоколыДоставкиОтправлений</enums>
+  <enums>Enum.СОД_ФорматыСообщений</enums>
+  <enums>Enum.СОД_ВерсияОтправления</enums>
+  <reports>Report.СОД_СтатистикаРегистраций</reports>
+  <dataProcessors>DataProcessor.СОД_ОбработкаОтладкиПравил</dataProcessors>
+  <dataProcessors>DataProcessor.СОД_ОбработкаОтладкиСистемы</dataProcessors>
+  <dataProcessors>DataProcessor.СОД_РегистрацияИзменений</dataProcessors>
+  <dataProcessors>DataProcessor.СОД_ТестRabbitMQ</dataProcessors>
+  <informationRegisters>InformationRegister.СОД_ПолучателиПисемМонитораБрокера</informationRegisters>
+  <informationRegisters>InformationRegister.СОД_ПротоколОбменаРегистрациями</informationRegisters>
+  <informationRegisters>InformationRegister.СОД_ТочкиАктуальностиВходящие</informationRegisters>
+  <informationRegisters>InformationRegister.СОД_ТочкиАктуальностиИсходящие</informationRegisters>
+  <informationRegisters>InformationRegister.СОД_ТочкиАктуальностиДоставленные</informationRegisters>
+</mdclass:Configuration>

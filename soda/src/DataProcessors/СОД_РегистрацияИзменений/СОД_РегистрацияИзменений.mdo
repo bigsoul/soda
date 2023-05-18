@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09846656-9033-4b9c-964a-716ff41cf463">
+  <producedTypes>
+    <objectType typeId="fbf5d53e-c54f-4be9-b4a4-34ad0ca57efb" valueTypeId="31c4822c-cd7f-4cdd-a2ef-1146744a6903"/>
+    <managerType typeId="067d653e-8acf-4feb-9dc4-1ef41a358fcc" valueTypeId="f9c9d7bd-5f99-43b9-95e0-57f398557cfe"/>
+  </producedTypes>
+  <name>СОД_РегистрацияИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация изменений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СОД_РегистрацияИзменений.Form.Форма</defaultForm>
+  <forms uuid="28df5b6f-b3bc-4f45-9e0b-18b5b1f9d5d2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b2d320ed-1601-4b1c-9bec-fbce173cc2d0">
+    <name>Справочник_ЗданияИУчастки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник здания и участки</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f6731b21-6287-419d-8a40-162ec3961339">
+    <name>Справочник_ОбъектыНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник объекты недвижимости</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c3b92a89-e57d-4999-aade-f64535e5eb3e">
+    <name>Справочник_ТипыЗданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник типы зданий</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="5ebe560f-59e3-490d-9ba7-629d396ebcec">
+    <name>Справочник_ТипыЗемельныхУчастков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник типы земельных участков</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="ea8aebc6-484c-485d-967f-73858c723ece">
+    <name>Документ_РегистрацияПараметровОбъектовНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ регистрация параметров объектов недвижимости</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="bb896949-c057-4e43-b3b7-766fe3fabcc3">
+    <name>Документ_РегистрацияУсловийПродажиОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ регистрация условий продажи объектов</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="ef705806-9340-4eee-bb07-8ec0aa816337">
+    <name>Документ_ИзменениеСтатусовОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ изменение статусов объектов</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c7004ced-519e-49a4-9348-e68b3db1862a">
+    <name>Справочник_ТипыОбъектовНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник типы объектов недвижимости</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="73654be2-a312-4be9-8df1-a2bb3ee52077">
+    <name>Справочник_ПЛ_Города</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник п л города</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="878726a8-86a1-44b6-ad15-5cf5b61cb2d8">
+    <name>Документ_УПН_СделкаПоНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ УПН сделка по недвижимости</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3f793c30-155a-4243-a875-e3f7fcfe863a">
+    <name>Документ_УПН_ДоговорПоНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ УПН договор по недвижимости</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="edc1f6e7-ffb1-49b1-97b5-ed8fb91f98e0">
+    <name>Справочник_Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник контрагенты</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e84bf7b0-dfd3-407a-9814-369ee5336b65">
+    <name>Справочник_Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник пользователи</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3fec98f4-d2d6-42c4-a57a-15755605d574">
+    <name>Справочник_Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник организации</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="68419ac0-f7e1-4070-a13e-59f8e220a589">
+    <name>Справочник_ПЛ_ТипыОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник п л типы оплаты</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="06fca938-ca5f-41e1-849f-630a4a7eb532">
+    <name>Справочник_ПЛ_ДополнительныйИнтерес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник п л дополнительный интерес</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="dc181d0d-f44b-4b1c-b328-d4349b29d9a1">
+    <name>Справочник_ПЛ_Отделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник п л отделки</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="6672ef14-66f3-46a3-997b-207b74a1a320">
+    <name>Справочник_ФизическиеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник физические лица</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e01d5cbb-c8b2-4699-b4a0-bbf5bc4e2084">
+    <name>Справочник_НЕО_ЦелиПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник НЕО цели покупки</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="88ac9ab0-de0b-4d97-b01c-038afcbd0e38">
+    <name>ПланВидовХарактеристик_КаналыРекламныхВоздействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>План видов характеристик каналы рекламных воздействий</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="262cc0fa-48da-4cc9-9cff-5cb8167d2f71">
+    <name>РегистрСведенийНаборЗаписей_УПН_УсловияПродажиОбъектов_СрезПоследних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистр сведений набор записей УПН условия продажи объектов срез последних</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="023e55c0-b983-43f7-895b-6f9cfd7f39f2">
+    <name>РегистрСведенийНаборЗаписей_УПН_СтатусыОбъектов_СрезПоследних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистр сведений набор записей УПН статусы объектов срез последних</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

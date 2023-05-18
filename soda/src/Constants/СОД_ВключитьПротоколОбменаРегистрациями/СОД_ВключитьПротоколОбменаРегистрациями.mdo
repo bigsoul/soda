@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d40ee5a4-10f5-43e0-8ac3-f9c0ae1b9c1a">
+  <producedTypes>
+    <managerType typeId="54297323-df87-4216-a334-b7bc2b362e1e" valueTypeId="7f59e84a-c30f-4495-b510-8d5dd5460ee9"/>
+    <valueManagerType typeId="c0ba8b3f-896c-46c0-b2e5-dc13d1a1c2c2" valueTypeId="8722383c-4c7e-46b2-98c5-a3ab3211a4c4"/>
+    <valueKeyType typeId="b28e3cab-5d38-4e9e-8425-848ce7218e45" valueTypeId="10632a20-3191-4a9d-9d96-5fe7cc2e44ba"/>
+  </producedTypes>
+  <name>СОД_ВключитьПротоколОбменаРегистрациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включить протокол обмена регистрациями</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.СОД_Параметры</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

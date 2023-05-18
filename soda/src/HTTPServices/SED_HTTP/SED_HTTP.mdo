@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5831e4c7-771c-44b3-823f-919806366cd5">
+  <name>SED_HTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>SED HTTP</value>
+  </synonym>
+  <rootURL>sed-web</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="465fee7c-625b-4f0d-b5bf-496ca15d14c0">
+    <name>Run</name>
+    <synonym>
+      <key>ru</key>
+      <value>Run</value>
+    </synonym>
+    <template>/run</template>
+    <methods uuid="12cce9bd-a839-4fae-852b-934208d83e5a">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>RunPost</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

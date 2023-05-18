@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ebcfde4-a21f-404a-b77a-564030ea3669">
+  <name>SED_WEB</name>
+  <synonym>
+    <key>ru</key>
+    <value>SED WEB</value>
+  </synonym>
+  <namespace>asrv.r5g.ru</namespace>
+  <descriptorFileName>sed_web.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="79d5f12f-9af6-4690-a216-224422eb7876">
+    <name>Run</name>
+    <synonym>
+      <key>ru</key>
+      <value>Run</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Run</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="fae2c808-a1c1-4cdd-96c1-b4f5cca90015">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

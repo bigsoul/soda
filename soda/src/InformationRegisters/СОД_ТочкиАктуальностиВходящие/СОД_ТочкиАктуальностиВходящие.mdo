@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e967fbe3-2e63-4d21-8c2e-43f3e2934c36">
+  <producedTypes>
+    <selectionType typeId="10274c95-e784-40be-b798-9dbe65130c64" valueTypeId="57b8e36f-2e8d-4c44-b68f-c5894ba0d852"/>
+    <listType typeId="513b43a5-8272-4a22-8bea-3681222a6ded" valueTypeId="b68dbf42-35db-4887-b58d-3026e14ab1be"/>
+    <managerType typeId="0d4b6983-5165-4104-af61-dbb2d7251533" valueTypeId="a5a213b1-e42e-427a-bd67-9ac9790e8648"/>
+    <recordSetType typeId="f960315a-6c92-4398-a627-d69135fc06b1" valueTypeId="bdc578c7-ed91-4122-a6b8-7af946294494"/>
+    <recordKeyType typeId="cccb82c1-61d8-40c1-9780-e6341d4a2d94" valueTypeId="eab3d4ee-d4ff-476d-b363-e112d7f9fece"/>
+    <recordType typeId="33ad45b2-f109-4aa7-bf0c-a29127ea2b26" valueTypeId="e0b7cab3-3d18-4445-9d03-f9aace0fc7a7"/>
+    <recordManagerType typeId="1fe951fa-feb1-43ed-9733-54586fe2cd3d" valueTypeId="9e3f7c32-cf5c-410c-b0e6-548dca667fdd"/>
+  </producedTypes>
+  <name>СОД_ТочкиАктуальностиВходящие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки актуальности входящие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bf1b08a7-8fd8-43a6-8c01-a4e0f65bd470">
+    <name>ТочкаАктуальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка актуальности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="23b87e0a-fa94-4334-acff-2a916fe320a2">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.СОД_Узлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

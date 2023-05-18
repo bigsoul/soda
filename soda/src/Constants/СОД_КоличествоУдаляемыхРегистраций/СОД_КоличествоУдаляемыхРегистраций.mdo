@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="320091e4-6fc1-497a-b7a5-615db97c4767">
+  <producedTypes>
+    <managerType typeId="979f665a-d73d-43a0-8eca-85476717cf6c" valueTypeId="3a7a4ed7-6273-4b32-bc73-6368cae67b90"/>
+    <valueManagerType typeId="25fd7f12-d4a9-4696-b518-ca76607c8f74" valueTypeId="97aeea17-c1f0-4acc-898f-44fc72439d8a"/>
+    <valueKeyType typeId="268141e2-f2fb-4a12-8f48-ff14433b81d4" valueTypeId="7ecc1e04-dfc2-465f-8018-2f3ad683e9a8"/>
+  </producedTypes>
+  <name>СОД_КоличествоУдаляемыхРегистраций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество удаляемых регистраций</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

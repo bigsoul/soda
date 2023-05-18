@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2346a2a8-a100-4f65-b2c0-094a4e1be0a0">
+  <name>СОД_РегистрацииAMQP</name>
+  <synonym>
+    <key>ru</key>
+    <value>СОД регистрации: AMQP</value>
+  </synonym>
+  <methodName>CommonModule.СОД_Синхронизация.РегистрацииAMQP</methodName>
+  <description>Регистрации: AMQP</description>
+  <key>Регистрации: AMQP</key>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

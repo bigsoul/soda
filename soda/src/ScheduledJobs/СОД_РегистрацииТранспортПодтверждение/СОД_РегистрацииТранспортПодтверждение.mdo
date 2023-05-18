@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2677ab0c-6acf-4a16-bc6c-5fb274a79359">
+  <name>СОД_РегистрацииТранспортПодтверждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрации: транспорт подтверждение</value>
+  </synonym>
+  <methodName>CommonModule.СОД_Синхронизация.РегистрацииТранспортПодтверждение</methodName>
+  <description>Регистрации: транспорт подтверждение</description>
+  <key>Регистрации: транспорт подтверждение</key>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

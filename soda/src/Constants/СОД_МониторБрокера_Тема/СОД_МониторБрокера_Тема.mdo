@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfbb9286-90d9-41f7-8d8e-6a353626833c">
+  <producedTypes>
+    <managerType typeId="a593a09e-fc55-4037-8f7b-2d536c71396b" valueTypeId="8dba8899-e109-49a4-87c8-ccb4e1a3e9b5"/>
+    <valueManagerType typeId="0f1ad56b-a552-4f1b-9edf-e671c337e383" valueTypeId="4bcb762b-92f0-488f-985f-414600de5440"/>
+    <valueKeyType typeId="29c66c5b-1805-45c2-8988-949b3484d0c9" valueTypeId="bfb395e9-fa1e-4c99-9fab-82428603b32a"/>
+  </producedTypes>
+  <name>СОД_МониторБрокера_Тема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тема</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

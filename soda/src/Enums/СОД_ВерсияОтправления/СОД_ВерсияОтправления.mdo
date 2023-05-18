@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45ab7e64-e7ba-497e-8a7d-df952146a614">
+  <producedTypes>
+    <refType typeId="91a1659b-7726-4d0f-b2df-7fcc7d106317" valueTypeId="3a2098c7-d5bb-41e8-9671-751ac69b2c1b"/>
+    <listType typeId="6366f4a8-1953-4c0d-bce2-123ac6375da1" valueTypeId="0e1dd504-e3b5-4f19-b768-0235a18eb12e"/>
+    <managerType typeId="1080a08c-d6a9-4acd-84f5-2b14f9d5cc8c" valueTypeId="414234f5-7457-479c-910a-64a5e20d3065"/>
+  </producedTypes>
+  <name>СОД_ВерсияОтправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия отправления</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7169547f-60cb-4271-a4ce-00246830600a">
+    <name>Версия_1_0</name>
+    <synonym>
+      <key>ru</key>
+      <value>1.0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29a1e2b1-0847-4441-a832-a1fd874ceb2d">
+    <name>Версия_1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1.1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc01db64-670b-40b5-b0db-772a4b4b3039">
+    <name>Версия_2_0</name>
+    <synonym>
+      <key>ru</key>
+      <value>2.0</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

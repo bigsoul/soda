@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35383bfe-be38-40ef-8819-1d5b6e97feb1">
+  <name>СОД_МониторБрокера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор брокера</value>
+  </synonym>
+  <methodName>CommonModule.СОД_Синхронизация.МониторБрокера</methodName>
+  <description>Монитор брокера</description>
+  <key>Монитор брокера</key>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

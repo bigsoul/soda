@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64bee1f0-47b9-4e78-b935-fc94d1b541a3">
+  <producedTypes>
+    <objectType typeId="05c5bbd7-898f-4f18-b54e-2ffd9f4c7546" valueTypeId="e5bb27a5-6dae-4b15-9d2f-025bfd831c41"/>
+    <managerType typeId="65b3d9bd-21bb-4b49-9761-b4da51bed65a" valueTypeId="e667d72f-d6ec-46dc-a2a9-3afc83c3673e"/>
+  </producedTypes>
+  <name>СОД_ТестRabbitMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест Rabbit MQ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СОД_ТестRabbitMQ.Form.Форма</defaultForm>
+  <forms uuid="1c437227-2a58-4f6c-b74b-8528472207ea">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

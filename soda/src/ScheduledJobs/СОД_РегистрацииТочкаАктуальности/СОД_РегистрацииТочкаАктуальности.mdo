@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e1e847a-54b0-4eef-ba6a-31594f022dcb">
+  <name>СОД_РегистрацииТочкаАктуальности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрации: точка актуальности</value>
+  </synonym>
+  <methodName>CommonModule.СОД_Синхронизация.РегистрацииТочкаАктуальности</methodName>
+  <description>Регистрации: точка актуальности</description>
+  <key>Регистрации: точка актуальности</key>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

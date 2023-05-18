@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fbbc506-dc3f-4237-a52a-f4b7e904df2e">
+  <producedTypes>
+    <selectionType typeId="579ff097-714d-4409-a4f4-62697682e2bf" valueTypeId="c8884724-e052-4a1e-aa00-43865c6847d1"/>
+    <listType typeId="21b0e792-41c6-4a92-80ea-887b909e24ca" valueTypeId="d1de7835-850d-418a-bcb2-852d63441b34"/>
+    <managerType typeId="23f66176-2032-41dd-8541-2d331c94337a" valueTypeId="20a9b3c0-ebf2-4b5b-8865-f9fb92111df5"/>
+    <recordSetType typeId="c07e0c71-3749-45a3-88c8-d5c2b89b4c3e" valueTypeId="e0143178-2b87-4736-969a-7d0d5d85e502"/>
+    <recordKeyType typeId="cc69d99d-7431-401b-b922-90f41828dc8e" valueTypeId="299be50a-3ee6-4525-a1e4-1b53ab2e1b7e"/>
+    <recordType typeId="84773d18-f89f-474a-ab48-ea330d9f6ab0" valueTypeId="498d486f-28d9-4dac-8e5c-c0e39948b58e"/>
+    <recordManagerType typeId="cf25c5ae-a65c-4ee7-ac4b-a1c1579878de" valueTypeId="3f9bb3eb-08c4-4102-b232-b494fed46c68"/>
+  </producedTypes>
+  <name>СОД_ПолучателиПисемМонитораБрокера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получатели писем монитора брокера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="966d3cf0-82cd-4f17-9d9a-16df501d3ce6">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

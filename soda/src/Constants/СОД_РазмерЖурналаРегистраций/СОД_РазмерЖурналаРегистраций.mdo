@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f244720-0d6e-4262-b179-5919eda483d2">
+  <producedTypes>
+    <managerType typeId="d32da247-52d9-44df-896c-b5309857f26e" valueTypeId="76f4bc17-56fd-4676-a794-410897c68934"/>
+    <valueManagerType typeId="4ede86be-07b5-4c2b-ae09-83bc47f3569b" valueTypeId="88838ed2-0106-48e3-a0ba-69bc03cb3e28"/>
+    <valueKeyType typeId="392a5f18-cbd9-4d4c-b28f-385739bb5b44" valueTypeId="b744375d-13d5-45cc-8903-16bd12118657"/>
+  </producedTypes>
+  <name>СОД_РазмерЖурналаРегистраций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер журнала регистраций (дней)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

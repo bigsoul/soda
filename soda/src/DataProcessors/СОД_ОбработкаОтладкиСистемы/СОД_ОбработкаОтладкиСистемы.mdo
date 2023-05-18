@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce7972de-39aa-4aeb-9ba2-f4164efcbc10">
+  <producedTypes>
+    <objectType typeId="5a841981-a45a-4518-bece-f4ecce887c31" valueTypeId="1c35a8c2-e83a-4c5e-b93a-9b388d9251ed"/>
+    <managerType typeId="5a019b4c-2cd0-4cc8-814e-6d1928013cac" valueTypeId="70cffbf2-83e7-4b77-98cc-80aab1fb451b"/>
+  </producedTypes>
+  <name>СОД_ОбработкаОтладкиСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка отладки системы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

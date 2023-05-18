@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d520124-1819-4967-8055-2c7f8a1dc53a">
+  <producedTypes>
+    <refType typeId="cbeeab14-240e-40f1-a03e-7468e1136c42" valueTypeId="421f5242-8758-45ef-a21b-b4d3ca2fb1a0"/>
+    <listType typeId="23452c22-1b5b-4157-9a54-f95db222e521" valueTypeId="3619e954-e4e1-4902-873b-ecb1ebdf997c"/>
+    <managerType typeId="ce9c23d9-b6c4-4d04-b1b8-d90012333ac5" valueTypeId="d27dca89-f18f-4cb1-a040-eb0e67b8239d"/>
+  </producedTypes>
+  <name>СОД_ПротоколыДоставкиОтправлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протоколы доставки отправлений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="440529d9-e517-416c-9f02-3b3cf6eaab05">
+    <name>WEBСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Web-сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9e964aa-d078-4ef6-a75b-a5da9a49d28a">
+    <name>HTTPСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP-сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7929a13-2f93-4489-bbbd-18900f32e87b">
+    <name>AMQP</name>
+    <synonym>
+      <key>ru</key>
+      <value>AMQP</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

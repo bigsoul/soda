@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaea2606-12cd-4364-a70f-9e59680f55a9">
+  <producedTypes>
+    <managerType typeId="6ba8deda-3118-4963-9418-5ae03801d3b1" valueTypeId="2e173464-6ca2-4081-80c6-9270a00f344e"/>
+    <valueManagerType typeId="5f2a9500-9a5d-49e5-9972-95964acdc91b" valueTypeId="38ff34d3-87ce-48fb-afcf-7e20b4d9b1e5"/>
+    <valueKeyType typeId="e98926b3-b6ed-4894-9f26-7fb52ff778f6" valueTypeId="12d05c69-3bf9-431d-ae25-404c26ffd8a8"/>
+  </producedTypes>
+  <name>СОД_ИсточникОтладкиПравил</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник отладки правил</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СОД_ИсточникиОбработкиПравил</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

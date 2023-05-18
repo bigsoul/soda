@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3324a43e-d024-4dbc-8679-d379b349cf64">
+  <producedTypes>
+    <managerType typeId="29e5c5ad-97dd-410d-b419-c0d616972510" valueTypeId="85807c3b-18f0-4b4b-9f15-0aef24bb516e"/>
+    <valueManagerType typeId="e906f2f9-0fd1-47d0-a563-11133500d4e6" valueTypeId="af3ce924-34eb-42ba-83ee-5da75837652a"/>
+    <valueKeyType typeId="804efbf9-21d9-4ef6-9156-b475340cf963" valueTypeId="80528e4f-6b77-46ac-8bd8-f9b171962d61"/>
+  </producedTypes>
+  <name>СОД_СоздаватьФайлLog</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создавать файл log</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

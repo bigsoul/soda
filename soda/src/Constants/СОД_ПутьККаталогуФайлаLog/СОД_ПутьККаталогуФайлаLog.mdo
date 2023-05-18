@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb910313-9e39-4cc8-8836-593ea7970f1e">
+  <producedTypes>
+    <managerType typeId="76bb54a5-a0bd-490f-9767-17e9b61d1468" valueTypeId="f00ca8a9-942d-40cc-91c8-5291d6ed8e10"/>
+    <valueManagerType typeId="13b32d1f-7513-4c3c-9393-bf5b94b65a9f" valueTypeId="dc3edc61-87f6-49f4-8d5d-3ba31ca47cc1"/>
+    <valueKeyType typeId="7926d1db-9112-499b-8578-761393999e3c" valueTypeId="429209cf-e626-4143-934c-ec111fa3f547"/>
+  </producedTypes>
+  <name>СОД_ПутьККаталогуФайлаLog</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к каталогу log</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>256</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

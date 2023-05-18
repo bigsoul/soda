@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86ab332f-706f-4eb8-9db8-315c37aa65e8">
+  <producedTypes>
+    <objectType typeId="f34a6246-8311-4698-9217-dbeeff0b6701" valueTypeId="76baed27-9644-48e5-b62d-c55b70edaa53"/>
+    <refType typeId="97564779-a17c-4430-8d09-e68a67aee162" valueTypeId="1c86d3e5-0d34-4d5e-87b4-558e7b385d3e"/>
+    <selectionType typeId="5dbb8778-f66d-42e9-93b0-8bdf0070389a" valueTypeId="72d32a73-50b0-4e17-941a-3130752fef19"/>
+    <listType typeId="698d798d-dd1e-4316-b55d-ad07caf6863f" valueTypeId="72ffa7f1-dcc4-4306-8252-fcabab153a44"/>
+    <managerType typeId="c86b3990-47b9-4f10-a58e-ba840053e456" valueTypeId="ea4fb911-d334-44b7-9b28-80200e0e6d96"/>
+  </producedTypes>
+  <name>ТЕСТ_Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТЕСТ_Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТЕСТ_Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9d2422a2-fefd-4548-bdc2-70818e302553">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e177672-e597-4c7a-8c52-c7e428cbd03c">
+    <name>ВПродаже</name>
+    <synonym>
+      <key>ru</key>
+      <value>В продаже</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e958558b-0bb1-49a5-b85a-c1e0deb8c228">
+    <name>Доступность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
