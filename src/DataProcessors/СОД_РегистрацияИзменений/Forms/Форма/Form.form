@@ -570,9 +570,7 @@
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>Результат.Ссылка</segments>
       </dataPath>
