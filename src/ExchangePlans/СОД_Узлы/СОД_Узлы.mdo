@@ -77,6 +77,14 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Узел</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Узлы</value>
+  </listPresentation>
   <codeLength>5</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>150</descriptionLength>

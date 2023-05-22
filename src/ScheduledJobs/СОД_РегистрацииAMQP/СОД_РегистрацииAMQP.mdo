@@ -6,7 +6,6 @@
     <value>СОД регистрации: AMQP</value>
   </synonym>
   <methodName>CommonModule.СОД_Синхронизация.РегистрацииAMQP</methodName>
-  <description>Регистрации: AMQP</description>
   <key>Регистрации: AMQP</key>
   <use>true</use>
   <predefined>true</predefined>

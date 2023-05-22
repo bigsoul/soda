@@ -6,7 +6,6 @@
     <value>Регистрации: транспорт</value>
   </synonym>
   <methodName>CommonModule.СОД_Синхронизация.РегистрацииТранспорт</methodName>
-  <description>Регистрации: транспорт</description>
   <key>Регистрации: транспорт</key>
   <use>true</use>
   <predefined>true</predefined>

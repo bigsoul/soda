@@ -6,7 +6,6 @@
     <value>Монитор брокера</value>
   </synonym>
   <methodName>CommonModule.СОД_Синхронизация.МониторБрокера</methodName>
-  <description>Монитор брокера</description>
   <key>Монитор брокера</key>
   <use>true</use>
   <predefined>true</predefined>

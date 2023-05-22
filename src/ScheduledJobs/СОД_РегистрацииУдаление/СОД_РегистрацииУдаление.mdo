@@ -6,7 +6,6 @@
     <value>Регистрации: удаление</value>
   </synonym>
   <methodName>CommonModule.СОД_Синхронизация.РегистрацииУдаление</methodName>
-  <description>Регистрации: удаление</description>
   <key>Регистрации: удаление</key>
   <use>true</use>
   <predefined>true</predefined>

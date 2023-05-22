@@ -6,7 +6,6 @@
     <value>Регистрации: транспорт подтверждение</value>
   </synonym>
   <methodName>CommonModule.СОД_Синхронизация.РегистрацииТранспортПодтверждение</methodName>
-  <description>Регистрации: транспорт подтверждение</description>
   <key>Регистрации: транспорт подтверждение</key>
   <use>true</use>
   <predefined>true</predefined>

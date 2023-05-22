@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Точка актуальности: Доставленная</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Точки актуальности: Доставленные</value>
+  </listPresentation>
   <resources uuid="9f385a7e-dea6-4ee6-9a1f-81217e2b1bfc">
     <name>ТочкаАктуальности</name>
     <synonym>

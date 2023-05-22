@@ -489,20 +489,17 @@
         <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
       <items xsi:type="form:FormField">
-        <name>Наименование</name>
-        <id>16</id>
+        <name>Ссылка</name>
+        <id>169</id>
         <visible>true</visible>
         <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <userVisible/>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.Description</segments>
+          <segments>Список.Ref</segments>
         </dataPath>
-        <defaultItem>true</defaultItem>
         <extendedTooltip>
-          <name>НаименованиеРасширеннаяПодсказка</name>
-          <id>18</id>
+          <name>СсылкаРасширеннаяПодсказка</name>
+          <id>171</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -516,8 +513,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>НаименованиеКонтекстноеМеню</name>
-          <id>17</id>
+          <name>СсылкаКонтекстноеМеню</name>
+          <id>170</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -525,14 +522,18 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>LabelField</type>
+        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:LabelFieldExtInfo">
+        <extInfo xsi:type="form:InputFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -2762,6 +2763,9 @@
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Ошибка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ref</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">

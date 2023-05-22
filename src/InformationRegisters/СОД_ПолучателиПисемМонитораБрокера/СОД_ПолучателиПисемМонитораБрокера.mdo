@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Получатель письма монитора брокера</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Получатели писем монитора брокера</value>
+  </listPresentation>
   <dimensions uuid="966d3cf0-82cd-4f17-9d9a-16df501d3ce6">
     <name>Получатель</name>
     <synonym>

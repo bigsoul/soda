@@ -6,7 +6,6 @@
     <value>Регистрации: обработка</value>
   </synonym>
   <methodName>CommonModule.СОД_Синхронизация.РегистрацииОбработка</methodName>
-  <description>Регистрации: обработка</description>
   <key>Регистрации: обработка</key>
   <use>true</use>
   <predefined>true</predefined>

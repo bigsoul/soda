@@ -6,7 +6,6 @@
     <value>Регистрации: точка актуальности</value>
   </synonym>
   <methodName>CommonModule.СОД_Синхронизация.РегистрацииТочкаАктуальности</methodName>
-  <description>Регистрации: точка актуальности</description>
   <key>Регистрации: точка актуальности</key>
   <use>true</use>
   <predefined>true</predefined>

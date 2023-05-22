@@ -21,6 +21,14 @@
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Событие протокола обмена регистрациями</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Протокол обмена регистрациями</value>
+  </listPresentation>
   <resources uuid="ab454219-ba6c-40fe-be0b-76fe4c7fc843">
     <name>Отправлено</name>
     <synonym>
