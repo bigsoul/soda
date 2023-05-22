@@ -9,5 +9,5 @@
     <types>CatalogObject</types>
   </source>
   <event>OnWrite</event>
-  <handler>CommonModule.СОД_ПодпискиНаСобытия.ТЕСТ_СправочникОбъект_ПриЗаписи</handler>
+  <handler>CommonModule.ТЕСТ_РегистрацияСобытий.ТЕСТ_СправочникОбъект_ПриЗаписи</handler>
 </mdclass:EventSubscription>

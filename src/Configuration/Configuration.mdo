@@ -55,8 +55,8 @@
   <commonModules>CommonModule.СОД_Маршрутизация</commonModules>
   <commonModules>CommonModule.СОД_Синхронизация</commonModules>
   <commonModules>CommonModule.СОД_СинхронизацияПовтИсп</commonModules>
-  <commonModules>CommonModule.СОД_ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.СОД_Общий</commonModules>
+  <commonModules>CommonModule.ТЕСТ_РегистрацияСобытий</commonModules>
   <exchangePlans>ExchangePlan.СОД_Узлы</exchangePlans>
   <webServices>WebService.SED_WEB</webServices>
   <httpServices>HTTPService.SED_HTTP</httpServices>
