@@ -52,10 +52,10 @@
   <commonTemplates>CommonTemplate.PinkRabbitMQ3_v2_1_1_141</commonTemplates>
   <commonModules>CommonModule.СОД_ВерсияОбъекта</commonModules>
   <commonModules>CommonModule.СОД_Логирование</commonModules>
-  <commonModules>CommonModule.СОД_Маршрутизация</commonModules>
   <commonModules>CommonModule.СОД_Синхронизация</commonModules>
-  <commonModules>CommonModule.СОД_СинхронизацияПовтИсп</commonModules>
   <commonModules>CommonModule.СОД_Общий</commonModules>
+  <commonModules>CommonModule.СОД_МаршрутизацияВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.СОД_СинхронизацияВызовСервераПовтИсп</commonModules>
   <commonModules>CommonModule.ТЕСТ_РегистрацияСобытий</commonModules>
   <exchangePlans>ExchangePlan.СОД_Узлы</exchangePlans>
   <webServices>WebService.SED_WEB</webServices>

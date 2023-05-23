@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f4333d4-8c6f-40e2-8f22-b2155848018f">
-  <name>СОД_СинхронизацияПовтИсп</name>
+  <name>СОД_СинхронизацияВызовСервераПовтИсп</name>
   <synonym>
     <key>ru</key>
-    <value>СОД синхронизация повт исп</value>
+    <value>СОД синхронизация вызов сервера повт исп</value>
   </synonym>
   <server>true</server>
-  <serverCall>true</serverCall>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>
