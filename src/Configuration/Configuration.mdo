@@ -61,6 +61,9 @@
   <webServices>WebService.SED_WEB</webServices>
   <httpServices>HTTPService.SED_HTTP</httpServices>
   <eventSubscriptions>EventSubscription.ТЕСТ_СправочникОбъект_ПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ТЕСТ_ДокументОбъектПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ТЕСТ_СправочникОбъект_ПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ТЕСТ_ДокументОбъектПередЗаписью</eventSubscriptions>
   <scheduledJobs>ScheduledJob.СОД_МониторБрокера</scheduledJobs>
   <scheduledJobs>ScheduledJob.СОД_РегистрацииОбработка</scheduledJobs>
   <scheduledJobs>ScheduledJob.СОД_РегистрацииТочкаАктуальности</scheduledJobs>
@@ -87,11 +90,14 @@
   <commonForms>CommonForm.СОД_ТочкиАктуальности</commonForms>
   <catalogs>Catalog.СОД_Регистрации</catalogs>
   <catalogs>Catalog.ТЕСТ_Номенклатура</catalogs>
+  <catalogs>Catalog.ТЕСТ_ВидыНоменклатуры</catalogs>
+  <documents>Document.ТЕСТ_ПриходныйОрдер</documents>
   <enums>Enum.СОД_ИсточникиОбработкиПравил</enums>
   <enums>Enum.СОД_НаправлениеРегистрации</enums>
   <enums>Enum.СОД_ПротоколыДоставкиОтправлений</enums>
   <enums>Enum.СОД_ФорматыСообщений</enums>
   <enums>Enum.СОД_ВерсияОтправления</enums>
+  <enums>Enum.ТЕСТ_СтавкаНДС</enums>
   <reports>Report.СОД_СтатистикаРегистраций</reports>
   <dataProcessors>DataProcessor.СОД_ОбработкаОтладкиПравил</dataProcessors>
   <dataProcessors>DataProcessor.СОД_ОбработкаОтладкиСистемы</dataProcessors>
@@ -102,4 +108,5 @@
   <informationRegisters>InformationRegister.СОД_ТочкиАктуальностиВходящие</informationRegisters>
   <informationRegisters>InformationRegister.СОД_ТочкиАктуальностиИсходящие</informationRegisters>
   <informationRegisters>InformationRegister.СОД_ТочкиАктуальностиДоставленные</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>

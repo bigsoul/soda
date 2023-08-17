@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a503861-e947-4796-a9a3-e747424a8584">
+  <name>ТЕСТ_СправочникОбъект_ПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник объект перед записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ТЕСТ_РегистрацияСобытий.ТЕСТ_СправочникОбъект_ПередЗаписью</handler>
+</mdclass:EventSubscription>

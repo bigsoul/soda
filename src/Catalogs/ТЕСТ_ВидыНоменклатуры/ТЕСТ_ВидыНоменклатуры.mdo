@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cddaa0a-c87c-49b8-8a16-05d13d2c2a0d">
+  <producedTypes>
+    <objectType typeId="41de5923-26e1-435d-b382-92ef16824431" valueTypeId="1c1bfc88-9ecb-4d86-9f7a-9f91554d1ec5"/>
+    <refType typeId="3320b661-b4c0-4523-a5a5-d9840df622c3" valueTypeId="e3b69795-c956-42ef-9ef9-cb02c016dc40"/>
+    <selectionType typeId="5c80db02-edd0-4aa6-95cb-38f87106e9e9" valueTypeId="068d306a-1be4-4885-bbc1-f6ad5048abb5"/>
+    <listType typeId="ef0a512f-f180-4ea2-8337-854e2eab68b1" valueTypeId="1446e2a6-c710-4df2-97e9-2dffbca2cddf"/>
+    <managerType typeId="4e9356e0-d2e4-4624-891f-564f26b7e958" valueTypeId="044a0b24-6e06-4982-8578-431e67703446"/>
+  </producedTypes>
+  <name>ТЕСТ_ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТЕСТ_ВидыНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТЕСТ_ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="28755900-2b79-46ef-bb92-59d7a6dcae84">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23c70ccd-f170-409c-bb44-b3f1205406b9">
+    <name>ИНС_ВнешнийКлюч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний ключ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

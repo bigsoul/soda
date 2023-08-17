@@ -9,4 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ТЕСТ_Номенклатура</content>
   <content>DataProcessor.СОД_ТестRabbitMQ</content>
+  <content>Catalog.ТЕСТ_ВидыНоменклатуры</content>
+  <content>Document.ТЕСТ_ПриходныйОрдер</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
 </mdclass:Subsystem>
