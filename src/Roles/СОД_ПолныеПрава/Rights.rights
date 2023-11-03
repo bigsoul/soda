@@ -78,6 +78,17 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.СОД_Обмен</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СОД_МониторБрокера_ПарольSMTP</name>
 		<right>
 			<name>Read</name>
@@ -149,6 +160,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
@@ -169,11 +184,11 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>InteractiveDeleteMarked</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>

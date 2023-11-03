@@ -11,6 +11,17 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.СОД_Обмен</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.СОД_Регистрации</name>
 		<right>
 			<name>Read</name>
