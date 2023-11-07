@@ -78,7 +78,7 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.СОД_ДанныеЗаписиОбъекта</name>
+		<name>SessionParameter.СОД_Обмен</name>
 		<right>
 			<name>Get</name>
 			<value>true</value>

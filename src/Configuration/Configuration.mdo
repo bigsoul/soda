@@ -41,7 +41,7 @@
   <subsystems>Subsystem.СОД_Синхронизация</subsystems>
   <subsystems>Subsystem.ТЕСТ_Тестирование</subsystems>
   <commonPictures>CommonPicture.СОД_Синхронизация</commonPictures>
-  <sessionParameters>SessionParameter.СОД_ДанныеЗаписиОбъекта</sessionParameters>
+  <sessionParameters>SessionParameter.СОД_Обмен</sessionParameters>
   <roles>Role.СОД_ПолныеПрава</roles>
   <roles>Role.СОД_Пользователь</roles>
   <roles>Role.ТЕСТ_ПолныеПрава</roles>
